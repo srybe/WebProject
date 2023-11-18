@@ -1,0 +1,65 @@
+h2 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+body {
+    height: 100vh; /* Viewport height */
+    width: 100vw; /* Viewport Width */
+    background: black;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+#image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+#image-track {
+    display: flex;
+    gap: 5vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    background-color: #f0f0f0; /* Optional: Background color for the footer */
+    color: #333; /* Optional: Text color for the footer */
+    padding: 20px;
+  }
+
+.footerImg{
+    
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.8; /* Optional: Adjust the opacity of the image as needed */
+    width: 85;
+    height: 85;
+    
+}
+
+.header {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.headerImg {
+    width: 85;
+    height: 85;
+    position: absolute;
+    top: 20px; /* Adjust the padding from the top */
+    right: 20px; /* Adjust the padding from the right*/
+}
+
